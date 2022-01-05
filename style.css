@@ -1,0 +1,252 @@
+body{
+    font-family: 'Cabin', sans-serif;
+    background-color: #e5e5e5;
+    margin: 0;
+}
+/* top section css starts */
+.orange{
+    color: orange;
+}
+
+.headings{
+    font-size: 60px;
+}
+
+h1{
+    margin: 0;
+}
+
+.top-headings{
+    border-left: 5px solid orangered;
+    padding-left: 12px;
+    border-radius: 5px;
+}
+
+.button{
+    background-color: tomato;
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.top-section{
+    display: flex;
+    margin-bottom: 150px;
+}
+
+.half-width{
+    width: 50%;
+}
+
+.person-1{
+    width: 70%;
+    margin-left: 120px;
+    margin-top: 20px;
+}
+
+.top-descriptions{
+    margin-left: 100px;
+    margin-top: 150px;
+}
+
+.top-descriptions p {
+    text-align: justify;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+/* top section css ends */
+
+/* middle section css starts */
+.mission-heading{
+    font-size: 40px;
+    text-align: center;
+}
+
+.year{
+color: orange;
+}
+
+.mission{
+    width: 360px;
+    height: 375px;
+    border-radius: 20px;
+    background-color: rgba(89, 210, 224, 0.411);
+    padding: 20px;
+}
+
+.mission img{
+    width: 140px;
+}
+
+.mission p{
+    text-align: justify;
+}
+
+.vision{
+    width: 360px;
+    height: 375px;
+    border-radius: 20px;
+    background-color: rgba(255, 89, 89, 0.226);
+    padding: 20px;
+}
+
+.vision img{
+    width: 140px;
+}
+
+.vision p{
+    text-align: justify;
+}
+
+.goals{
+    width: 360px;
+    height: 375px;
+    border-radius: 20px;
+    background-color: #FFF4D6;
+    padding: 20px; 
+}
+
+.goals img{
+    width: 140px;
+}
+
+.goals p{
+    text-align: justify;
+}
+
+.missions{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 70px;
+    margin-bottom: 150px;
+}
+/* middle section css ends  */
+
+/* bottom section css starts */
+.bottom-section1{
+    display: flex;
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 200px 200px;
+    background-position: 60px;
+}
+
+.coading-persons-image{
+    width: 80%;
+}
+
+.coading-person{
+    margin-left: 150px;
+}
+
+.coading-person-description{
+    margin-right: 200px;
+    margin-top: 60px;
+}
+
+.coading-person-description p{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: justify;
+}
+
+.coading-person-description h1{
+    font-size: 40px;
+}
+
+.bottom-section2{
+    display: flex;
+    height: 580px;
+    margin-top: 150px;
+    margin-bottom: 100px;
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 200px 200px;
+    background-position: 1230px 360px;
+}
+
+.project-image{
+width: 74%;
+}
+
+.project-image-description{
+    margin-left: 150px;
+    margin-right: 70px;
+    margin-top: 70px;
+}
+
+.project-image-description h1{
+    font-size: 40px;
+}
+
+.project-image-description p{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: justify;
+}
+/* .bottom section css ends  */
+
+/* extra section css starts  */
+.extra-section-color{
+    color: orange;
+}
+
+.extra-heading{
+    font-size: 40px;
+    text-align: center;
+}
+
+.corona-orange{
+    color: orange;
+}
+
+.extra-png-file-and-description{
+    display: flex;
+    margin-top: 70px;
+}
+
+.extra-png-image{
+    width: 50%;
+    margin-left: 250px;
+}
+
+.extra-section-description h1{
+    font-size: 40px;
+}
+
+.extra-section-description{
+    margin-top: 200px;
+    margin-right: 150px;
+}
+
+.extra-section-description p{
+    margin-top: 30px;
+    margin-bottom: 35px;
+    text-align: justify;
+}
+
+.extra-section{
+    background-image: url(images/shapes/shape-3.png);
+    background-repeat: no-repeat;
+    background-size: 150px 150px;
+    background-position: 200px 90px;
+    margin-bottom: 150px;
+}
+/* extra section css ends  */
+
+footer{
+    background-color: black;
+    height: 180px;
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+}
+
+footer p{
+    margin: 0;
+}
+
+footer h3{
+    font-size: 30px;
+}
